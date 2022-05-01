@@ -41,7 +41,6 @@ start = () => {
 
     startbt.style.display = "none";
     backbt.style.display = "none";
-    //nextbt.style.display = "block";
     menu.style.display = "none";
     game.style.display = "block";
 
@@ -219,10 +218,10 @@ removeStyle = () => {
     odp2.disabled = false;
     odp3.disabled = false;
     odp4.disabled = false;
-    odp1.style.backgroundColor = "#4f5b66";
-    odp2.style.backgroundColor = "#4f5b66";
-    odp3.style.backgroundColor = "#4f5b66";
-    odp4.style.backgroundColor = "#4f5b66";
+    odp1.style.backgroundColor = "#6D696A";
+    odp2.style.backgroundColor = "#6D696A";
+    odp3.style.backgroundColor = "#6D696A";
+    odp4.style.backgroundColor = "#6D696A";
 }
 
 

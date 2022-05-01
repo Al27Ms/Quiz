@@ -1,5 +1,6 @@
 body{
-    background: #343d46;
+    background-image: linear-gradient(120deg,#6D696A,#FFFFFF);
+    min-height: 100vh;
     color: #343d46;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     zoom: 150%;
@@ -8,7 +9,13 @@ body{
     border: aliceblue solid 2px;
     padding: 10px;
     font-size: 30px;
-    background: #a7adba;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,9 +35,12 @@ a{
 button{
     width: 150px;
     height: 30px;
-    background:#4f5b66;
+    background:#6D696A;
     border-radius: 4px;
     color: #fff;
+
+    border: 1px solid #000;
+    
 }
 #backbt, #playbt{
     background-color: #f44336;
@@ -45,11 +55,13 @@ button{
     width: 310px;
 }
 button:hover {
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+    cursor: pointer;
+    background: #535051;
 }
 .rightbtn{
     background:#a7adba;
-    color: #343d46;
+    color: #6D696A;
     font-weight: bold;
 }
 #question{
