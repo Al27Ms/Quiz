@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="box">
+            <h4 id="logo">Quiz historyczny</h4>
+            <p id="question">Wybierz temat</p>
+
+        <div id="menu">
+
+            <button onclick="functionLevel()" id="topic">Temat</button>
+            <button id="showingLevel" class="rightbtn" disabled>Starożytny Egipt</button>
+            <br>
+        </div>
+
+        <div id="game">
+
+            <button id="odp1" class="answers" onclick="odp1f()"></button>
+            
+            <button id="odp2" class="answers" onclick="odp2f()"></button><br>
+            
+            <button id="odp3" class="answers" onclick="odp3f()"></button>
+            
+            <button id="odp4" class="answers" onclick="odp4f()"></button><br>
+
+        </div>
+       
+        <button id="backbt" onclick="reload()">Powrót</button>
+
+        <button id="startbt"  onclick="start()">START</button>
+        <p><button id="nextbt" onclick="next()">DALEJ</button></p>
+        
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
